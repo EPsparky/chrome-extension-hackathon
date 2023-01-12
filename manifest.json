@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "GitBoba",
+    "version": "1.0",
+    "description": "You have to earn it",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["chrome.js"]
+        }
+    ],
+    "action": {
+        "default_icon": {
+            "16": "catbobathumb.jpg",
+            "32": "catboba.jpg"
+        },
+        "default_popup": "index.html",
+        "default_title": "Git Boba"
+      }
+    // "icons": { 
+    //     "16": "icon16.png",
+    //     "48": "icon48.png",
+    //     "128": "icon128.png" }
+}

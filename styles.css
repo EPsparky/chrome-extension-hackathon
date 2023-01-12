@@ -1,0 +1,58 @@
+
+
+body {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+/* body {
+    background-color: aquamarine;
+    padding: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100vh;
+    height: 150vh;
+    
+} */
+/* #body {
+
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("assets/bg1.jpg");
+  } */
+
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+
+#add-tasks-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#list{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.animation{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cash{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
